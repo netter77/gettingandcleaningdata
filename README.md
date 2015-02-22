@@ -6,7 +6,7 @@ The script includes some comments to facilitate you reading it.
 
 You need to have installed the library plyr on your machine.
 
-First of all is the lecture of the files into data frames from:
+First of all is the lecture of the files into data frames from giving files
 - 'features.txt': List of all features.
 
 - 'activity_labels.txt': Links the class labels with their activity name.

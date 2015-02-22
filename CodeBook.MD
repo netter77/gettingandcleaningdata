@@ -56,6 +56,10 @@ cadena_clean1          chr[1:561] auxiliar variable
 
 cadena_clean2          chr[1:561] auxiliar variable
 
+features_clean         561 obs. of 2 variables includes 'features.txt': List of all features without characters "-", "(" and ")"
+
+only_mean_std          have the columns numbers where appears the words mean or std
+
 LIBRARY
 
 plyr                   you need to have installed that library to run the script.

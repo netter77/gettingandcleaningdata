@@ -16,30 +16,50 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 # Global Enviroment
 I used the following structure to do the project:
+
 DATA
+
 activity_labels           6 obs. of 2 variables includes 'activity_labels.txt': Links the class labels with their activity name.
+
 features                561 obs. of 2 variables includes 'features.txt': List of all features.
+
 measurement_mean_std 10.299 obs. of 66 variables data frame to respond to question number 2
+
 new_table               180 obs. of 479 variables auxiliar data frame to construct de tidydataset.txt file in question 5
+
 subject_test          2.947 obs. of 1 variable './test/subject_text.txt'
+
 subject_total         7.352 obs. of 1 variable with rbind subject_train, subject_test 
+
 subject_train         7.352 obs. of 1 variable includes './train/subject_train.txt'
+
 table_total          10.299 obs. of 563 variables includes with cbind x_total, y_total
+
 x_test                2.947 obs. of 561 variables includes 'test/X_test.txt': Test set.
+
 x_total             10.299 obs. of 561 variables includes with rbind x_train, x_test 
+
 x_train               2.947 obs. of 561 variables includes 'train/X_train.txt': Training set. 
+
 y_test                2.947 obs. of 1 variable includes 'test/y_test.txt': Test labels.
+
 y_total             10.299 obs. of 561 variables includes with rbind y_train, y_test 
+
 y_train               7.352 obs. of 1 variable includes 'train/y_train.txt': Training labels.
 
 
 VALUES
+
 cadena                 Factor w/477 levels 
+
 cadena_clean           chr[1:561] auxiliar variable with the activity labels without "-", "(", and ")"
+
 cadena_clean1          chr[1:561] auxiliar variable
+
 cadena_clean2          chr[1:561] auxiliar variable
 
 LIBRARY
+
 plyr                   you need to have installed that library to run the script.
 
 

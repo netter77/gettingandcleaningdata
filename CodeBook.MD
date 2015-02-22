@@ -27,7 +27,7 @@ subject_train         7.352 obs. of 1 variable includes './train/subject_train.t
 table_total          10.299 obs. of 563 variables includes with cbind x_total, y_total
 x_test                2.947 obs. of 561 variables includes 'test/X_test.txt': Test set.
 x_total             10.299 obs. of 561 variables includes with rbind x_train, x_test 
-x_train               2.947 obs. of 561 variables includes 'train/X_train.txt': Training set.
+x_train               2.947 obs. of 561 variables includes 'train/X_train.txt': Training set. 
 y_test                2.947 obs. of 1 variable includes 'test/y_test.txt': Test labels.
 y_total             10.299 obs. of 561 variables includes with rbind y_train, y_test 
 y_train               7.352 obs. of 1 variable includes 'train/y_train.txt': Training labels.

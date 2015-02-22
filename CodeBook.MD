@@ -35,7 +35,8 @@ y_train               7.352 obs. of 1 variable
 VALUES
 cadena                 Factor w/477 levels
 cadena_clean           chr[1:561]
-cadena_clean           chr[1:561]
+cadena_clean1          chr[1:561]
+cadena_clean2          chr[1:561]
 
 
 

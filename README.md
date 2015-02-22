@@ -1,3 +1,5 @@
+# README.md
+
 This Script starts with the assumption that the Samsung data is available in the working directory in an unzipped UCI CHAR Dataset folder.
 
 The script includes some comments to facilitate you reading it.
@@ -19,7 +21,7 @@ First of all is the lecture of the files into data frames from:
 
 I took these files and 
 ############################################################
-1 Create one data set merging train data and test data from: 
+# 1 Create one data set merging train data and test data from: 
 ############################################################
 - x_train from the file  'train/X_train.txt': Training set.
 - y_train from the file  'train/y_train.txt'

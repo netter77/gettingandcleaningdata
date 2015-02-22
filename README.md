@@ -31,8 +31,7 @@ I took these files and put them into data frames tables.
 - y_test from the file 'test/y_test.txt'
 - subject_test from the file 'test/subject_test.txt'
 
-I change de X for x to avoid errors on writting the names.
-# join rows to total tables, begining whith train and then test
+I change de X for x to avoid errors on writting the names, joining rows to total tables, begining whith train and then test
 
 
 x_total <- rbind(x_train, x_test)
